@@ -1,0 +1,58 @@
+##Using K-Fold Cross Validation Strategy
+
+BigRigs new vectors
+0.json .Two tasks: ['GTR2(high)'] ,Three tasks: ['GTR2(high)']
+1.json .Two tasks: ['GTR2(high)'] ,Three tasks: ['GTR2(high)']
+2.json .Two tasks: ['BigRigs(low)'] ,Three tasks: ['BigRigs(low)']
+3.json .Two tasks: ['GTR2(high)'] ,Three tasks: ['NFS(avg)']
+4.json .Two tasks: ['BigRigs(low)'] ,Three tasks: ['BigRigs(low)']
+5.json .Two tasks: ['BigRigs(low)'] ,Three tasks: ['NFS(avg)']
+6.json .Two tasks: ['BigRigs(low)'] ,Three tasks: ['BigRigs(low)']
+7.json .Two tasks: ['BigRigs(low)'] ,Three tasks: ['BigRigs(low)']
+8.json .Two tasks: ['BigRigs(low)'] ,Three tasks: ['BigRigs(low)']
+9.json .Two tasks: ['BigRigs(low)'] ,Three tasks: ['BigRigs(low)']
+10.json .Two tasks: ['GTR2(high)'] ,Three tasks: ['GTR2(high)']
+11.json .Two tasks: ['GTR2(high)'] ,Three tasks: ['GTR2(high)']
+12.json .Two tasks: ['GTR2(high)'] ,Three tasks: ['NFS(avg)']
+13.json .Two tasks: ['BigRigs(low)'] ,Three tasks: ['BigRigs(low)']
+14.json .Two tasks: ['GTR2(high)'] ,Three tasks: ['GTR2(high)']
+15.json .Two tasks: ['GTR2(high)'] ,Three tasks: ['NFS(avg)']
+=50% 2 tasks, 44% 3 tasks
+
+GTR2 new vectors
+0.json .Two tasks: ['BigRigs(low)'] ,Three tasks: ['BigRigs(low)']
+1.json .Two tasks: ['GTR2(high)'] ,Three tasks: ['NFS(avg)']
+2.json .Two tasks: ['GTR2(high)'] ,Three tasks: ['NFS(avg)']
+3.json .Two tasks: ['GTR2(high)'] ,Three tasks: ['GTR2(high)']
+4.json .Two tasks: ['BigRigs(low)'] ,Three tasks: ['NFS(avg)']
+5.json .Two tasks: ['GTR2(high)'] ,Three tasks: ['NFS(avg)']
+6.json .Two tasks: ['BigRigs(low)'] ,Three tasks: ['BigRigs(low)']
+7.json .Two tasks: ['GTR2(high)'] ,Three tasks: ['NFS(avg)']
+8.json .Two tasks: ['GTR2(high)'] ,Three tasks: ['NFS(avg)']
+9.json .Two tasks: ['BigRigs(low)'] ,Three tasks: ['BigRigs(low)']
+10.json .Two tasks: ['BigRigs(low)'] ,Three tasks: ['BigRigs(low)']
+11.json .Two tasks: ['GTR2(high)'] ,Three tasks: ['GTR2(high)']
+12.json .Two tasks: ['GTR2(high)'] ,Three tasks: ['GTR2(high)']
+13.json .Two tasks: ['GTR2(high)'] ,Three tasks: ['NFS(avg)']
+14.json .Two tasks: ['BigRigs(low)'] ,Three tasks: ['BigRigs(low)']
+
+=60% 2 tasks, 20% 3 tasks
+
+NFS new vectors:
+0.json .Three tasks: ['NFS(avg)']
+1.json .Three tasks: ['BigRigs(low)']
+2.json .Three tasks: ['GTR2(high)']
+3.json .Three tasks: ['NFS(avg)']
+4.json .Three tasks: ['BigRigs(low)']
+5.json .Three tasks: ['GTR2(high)']
+6.json .Three tasks: ['BigRigs(low)']
+7.json .,Three tasks: ['BigRigs(low)']
+8.json .Three tasks: ['NFS(avg)']
+9.json .Three tasks: ['NFS(avg)']
+10.json .Three tasks: ['GTR2(high)']
+11.json .Three tasks: ['GTR2(high)']
+12.json .Three tasks: ['GTR2(high)']
+13.json .Three tasks: ['BigRigs(low)']
+14.json .Three tasks: ['BigRigs(low)']
+
+=27% 3 tasks

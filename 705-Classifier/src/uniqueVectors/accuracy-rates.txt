@@ -1,0 +1,3 @@
+BigRigs new vector accuracy - 60%
+GTR2 high accuray - 60%
+NFS avg accuracy - 20%
